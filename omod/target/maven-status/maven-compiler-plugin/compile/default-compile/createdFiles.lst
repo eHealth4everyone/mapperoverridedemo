@@ -1,0 +1,6 @@
+org\openmrs\module\mapperoverridedemo\page\controller\DemoLoginPageController.class
+org\openmrs\module\mapperoverridedemo\overrideadminlogo\CopyLegacyUiContentToWebInf$1.class
+org\openmrs\module\mapperoverridedemo\page\DemoLoginPageRequestMapper.class
+org\openmrs\module\mapperoverridedemo\fragment\controller\DemoHeaderFragmentController.class
+org\openmrs\module\mapperoverridedemo\overrideadminlogo\CopyLegacyUiContentToWebInf.class
+org\openmrs\module\mapperoverridedemo\fragment\DemoHeaderFragmentRequestMapper.class

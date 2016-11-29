@@ -1,0 +1,180 @@
+/* Override the style when displaying HTML forms in VIEW mode in the Patient Dashboard */ 
+.collapse htmlform .title {
+	color: rgb(0, 147, 132);
+	font-family: OpenSans, Arial, sans-serif;
+	font-size: 1.25em;
+	font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+/* Style to dispaly an "age when given" = "age given on time" */
+.onTime {
+	color: green;
+}
+
+/* Styles to display nicer the form, in the encounter list */
+.collapse htmlform fieldset {
+    border: none;
+}
+
+.collapse htmlform p {
+    border-bottom: none;
+    vertical-align: top;
+    margin-top: 1px;
+}
+
+.collapse htmlform section, .collapse htmlform div.section {
+    margin-bottom: 10px;
+    border: solid 1px;
+    padding: 20px;
+    padding-top: 8px;
+    padding-left: 30px;
+}
+.collapse htmlform .toggleContainer {
+   margin-bottom:10px;
+   padding-left:10px;
+
+}
+
+.collapse htmlform h3.multiple {
+    display:block;
+}
+
+.collapse htmlform .questionLabel:after {
+    content: ":";
+}
+
+.collapse htmlform .indented, .collapse htmlform p.multiple {
+    margin-left: 20px;
+    display:block;
+}
+
+.collapse htmlform legend.multiple {
+    color:#009384;
+    display:block;
+    margin-bottom:5px;
+    font-size:0.9em;
+}
+
+.collapse htmlform .emptyFieldset, .collapse htmlform .emptyValue, .collapse htmlform .emptySection, .collapse htmlform .emptyTable {
+    display:none;
+}
+
+/* Style to improve display Enter mode of SimpleUI forms */
+.simple-form-ui htmlform div.toggleContainer {
+    border: solid 1px;
+    padding: 20px;
+    margin-bottom:10px;
+}
+.simple-form-ui htmlform h3 {
+    font-size:1em;
+    margin:0px;
+    margin-left:5px;
+}
+.simple-form-ui htmlform section p {
+    margin-bottom: 5px;
+}
+
+.addRemoveButtons {
+     margin-left:80%
+}
+
+/* Style to improve display of select fields (ex: date and time fields)*/
+.simple-form-ui select, .simple-form-ui form select {
+    min-width: 0;
+}
+
+/* customize style for Units */
+.units {
+	margin-left: 3px;
+}
+
+/* style for angular dialog box */
+.ngdialog-overlay
+{
+	z-index: -1;   
+}
+
+/* style for add/remove button sections */
+.order {
+    margin-top: 10px!important; 
+    margin-bottom: 10px!important;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border-color: #E0E0E0;
+    border-style: solid;
+    border-width: 1px;
+    width: 80%;
+}
+
+/* style for disabled input */
+.input-disabled {
+    background-color:#EBEBE4;
+}
+
+
+/* style to display "span"s that are immediatly child "div.order" (div with "order" class) as blocks */
+div.order > span { 
+    display:block;
+}
+
+
+/* style for option elements */
+option.dialog-drop-down {
+    font-size:1em!important;
+}
+
+/* style for tags on dashboard, visit widget */
+.tag {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 66px;
+}
+.tag:hover {
+	cursor:default;
+}
+.active {
+	margin-right:5px;
+}
+.clear {
+    padding-bottom: 5px;
+}
+
+/* Overriding coreapp's patient header's registration section titles */
+h2[class^="section-title-"] {
+    display: none;
+}
+
+/* Setting some padding on coreapp's patient header's registration sections */
+#contactInfoContent {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/* Style for Living Condition Score in HTML form */
+.simple-form-ui htmlform #lcs-obs {
+    display: none;
+}
+.simple-form-ui htmlform #lcs-wrapper {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.simple-form-ui htmlform #lcs-value {
+    font-size: 2em;
+}
+.simple-form-ui htmlform #lcs-message-wrapper {
+    display:block;
+}
+
+.simple-form-ui htmlform .icon-info-sign {
+ font-size: 1.3em;   
+}
+
+
+

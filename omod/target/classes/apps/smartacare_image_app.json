@@ -1,0 +1,21 @@
+[{
+  "id": "overrideSettings",
+  "extensions": [
+     {
+        "id": "override.configureStandardHeader",
+        "extensionPointId": "org.openmrs.module.appui.header.config",
+        "type": "config",
+        "extensionParams": {
+            "logo-icon-url": "/ms/uiframework/resource/mapperoverridedemo/images/smartacareLogo.png"
+        }
+    },
+    {
+        "id": "override.configureStandardHeader_adminPage",
+        "extensionPointId": "org.openmrs.module.referenceapplication.header.config",
+        "type": "config",
+        "extensionParams": {
+            "logo-icon-url": "/images/smartacareLogo.png"
+        }
+    }
+  ]
+}]
