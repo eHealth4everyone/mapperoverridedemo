@@ -230,7 +230,8 @@ public class DemoLoginPageController {
 	}
 
 	private String getStringSessionAttribute(String attributeName, HttpServletRequest request) {
-		String attributeValue = (String) request.getSession().getAttribute(attributeName);
+		// add .toString() to the end of the next line when building for reference application 2.5
+		String attributeValue = (String) request.getSession().getAttribute(attributeName); 
 		request.getSession().removeAttribute(attributeName);
 		return attributeValue;
 	}
